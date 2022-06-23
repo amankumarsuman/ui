@@ -1,0 +1,43 @@
+.chefsBanner{
+    background-image: url("../../../public/chefs1.png");
+    width: 3177px;
+    height:781px;
+    /* padding-bottom: 100px; */
+    /* position: absolute; */
+    object-fit: contain;
+}
+.johnson{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    /* padding-top: 73px; */
+}
+.johnsonText{
+    color: white;
+}
+.johnsonPara{
+    color: white;
+    margin-top: 5px;
+  
+}
+.robert{
+    border-radius: 50%;
+    /* padding-top: 73px; */
+}
+.robertPara{
+    width: 60%;
+    margin: auto;
+    color: black;
+    margin-top: 10px;
+}
+.johnsonPic{
+    padding-top: 50px;
+    /* border: 1px solid red; */
+}
+/* .foodguideBanner {
+    background-image: url("../../../public/chefs2.png");
+    width: 3177px;
+    height: 1781px;
+    object-fit: contain;
+    position: absolute;
+   
+} */

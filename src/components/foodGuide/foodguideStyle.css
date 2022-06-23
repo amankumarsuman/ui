@@ -1,0 +1,26 @@
+.foodguideBanner{
+    background-image: url("../../../public/chefs2.png");
+        width: 3177px;
+        height: 1781px;
+        object-fit: contain;
+        /* position: absolute; */
+}
+.vegetable{
+    width: 200px;
+    height: 200px;
+    background-color: #342679;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    /* position: absolute; */
+    
+
+}
+.vegImg {
+    display: block;
+    margin-left: auto;
+        margin-right: auto;
+   
+    /* border: 1px solid red; */
+}
