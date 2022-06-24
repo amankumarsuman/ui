@@ -1,10 +1,13 @@
-import { Grid, Paper } from "@mui/material";
+import { Divider, Grid, Paper } from "@mui/material";
 import React from "react";
 import "./chefStyle.css";
 function TopChefs() {
   return (
     <>
       <div style={{ maxWidth: "1280px" }}>
+      
+
+
         <div className="chefsBanner">
           <div style={{ width: "70%", margin: "auto", marginTop: "50px" }}>
             <Grid sx={{ paddingTop: "50px" }} container spacing={2}>

@@ -1,0 +1,30 @@
+.variety1{
+    object-fit: contain;
+    width: 1511.73px;
+    height: 1194.66px;
+    background-image: url("../../../public/variety1.png");
+    border-radius: 2%;
+
+}
+.para{
+    background-color: #53396B;
+    opacity: 0.8;
+    /* margin-top: 60%; */
+    position: absolute;
+    width: 1460.73px;
+    bottom: 400px;
+    padding-left: 50px;
+    border-radius: 2%;
+}
+.explore{
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    display: flex;
+}
