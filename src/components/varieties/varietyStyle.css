@@ -1,20 +1,26 @@
 .variety1{
     object-fit: contain;
-    width: 1511.73px;
-    height: 1194.66px;
+    width: 2811.73px;
+    height: 1250.66px;
     background-image: url("../../../public/variety1.png");
     border-radius: 2%;
-
+    position: relative;
+float: left;
 }
 .para{
     background-color: #53396B;
     opacity: 0.8;
     /* margin-top: 60%; */
-    position: absolute;
-    width: 1460.73px;
-    bottom: 570px;
+    /* position: fixed; */
+    /* width: 1460.73px; */
+    /* bottom: 570px; */
+    /* margin-top: 830px; */
     padding-left: 50px;
+    padding-bottom: 20px;
     border-radius: 2%;
+    position: absolute;
+        bottom: 0;
+        left: 0;
 }
 .explore{
     padding: 25px;
@@ -32,4 +38,15 @@
     width: 3177px;
     display: flex;
     margin-bottom: 50px;
+    margin-left: 50px;
+}
+.pizzaHeading{
+    font-size: 50px;
+     color: white;
+      padding-top: 50px;
+}
+.pizzaPara{
+    color: white;
+    font-size: 30px; 
+    padding-top: 20px;
 }

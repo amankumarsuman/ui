@@ -5,6 +5,8 @@
     /* padding-bottom: 100px; */
     /* position: absolute; */
     object-fit: contain;
+    text-align: center;
+    margin-left: 50px;
 }
 .johnson{
     /* border: 1px solid red; */
@@ -13,6 +15,7 @@
 }
 .johnsonText{
     color: white;
+    text-align: center;
 }
 .johnsonPara{
     color: white;

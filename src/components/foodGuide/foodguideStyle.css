@@ -3,6 +3,8 @@
         width: 3177px;
         height: 1781px;
         object-fit: contain;
+        text-align: center;
+        margin-left: 50px;
         /* position: absolute; */
 }
 .vegetable{
@@ -30,4 +32,21 @@
     width: 90%;
     margin: auto;
     padding-top: 8%;
+}
+.foodGuideDiv{
+    padding-top: 100px;
+    width: 200px;
+    margin: auto;
+    
+}
+.vegetableDiv{
+    margin-top: 30px;
+            margin-left: -280px;
+            font-size: 50px;
+}
+.vegetablePara{
+    margin-left: -200px;
+            color: black;
+            font-weight: 700;
+            margin-top: 20px;
 }

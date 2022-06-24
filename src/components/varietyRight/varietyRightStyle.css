@@ -4,5 +4,89 @@
     width: 775.62px;
     height: 595.73px;
     object-fit: contain;
+    position: relative;
+        float: left;
+        border-radius: 20px;
+}
+.frenchFry2{
+    background-image: url("../../../public/variety3.png");
+
+    width: 775.62px;
+    height: 595.73px;
+    object-fit: contain;
+    position: relative;
+        float: left;
+        border-radius: 20px;
+        margin-left: 50px;
+}
+.frenchFry3{
+    background-image: url("../../../public/variety4.png");
+
+    width: 775.62px;
+    height: 595.73px;
+    object-fit: contain;
+    position: relative;
+        float: left;
+        border-radius: 20px;
+        margin-top: 50px;
+}
+.frenchFry4{
+    background-image: url("../../../public/variety5.png");
+
+    width: 775.62px;
+    height: 595.73px;
+    object-fit: contain;
+    position: relative;
+        float: left;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+}
+.frenchFryExplore{
+    /* padding: 25px; */
+        /* border: 1px solid white; */
+        border-radius: 40px;
+        width: 200px;
+        text-align: center;
+        /* color: black; */
+        margin-top: 50px;
+        font-size: 30px;
+        /* margin-bottom: 100px; */
+        display: flex;
+}
+.paraContainer{
+    /* width: 90%;
+    margin: auto; */
+    width: 100%;
+    padding: 25px;
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+        bottom: 0;
+        left: 0;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+}
+.paraContainerMacaroon{
+    width: 94%;
+        padding: 25px;
+        background-color: black;
+        opacity: 0.8;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: white;
+        border-radius: 20px;
+}
+.frenchfryPara{
+    font-size: 20px; 
+    font-weight: 600;
+    padding-top: 20px;
+}
+.frenchfryHeading{
     
+                font-size: 40px;
+        
 }

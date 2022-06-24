@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <Header />
       <VarietyCard />
-      <TopChefsHeading/>
+      <TopChefsHeading heading={"TOP CHEFS"} />
       <TopChefs />
       <FoodGuide />
-      <SocialMedia/>
+      <SocialMedia />
     </div>
   );
 }

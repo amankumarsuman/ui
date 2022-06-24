@@ -1,9 +1,10 @@
 import React from "react";
-
+import TopChefsHeading from "../topChefHeading/TopChefsHeading";
+import "./headerStyle.css";
 function Header() {
   return (
-    <div>
-      <div style={{ padding: "20px" }}>
+    <div className="mainContainers">
+      <div className="header">
         <img src="./logo.png" alt="logo" />
         <img
           style={{ marginLeft: "20px" }}
@@ -12,6 +13,7 @@ function Header() {
         />
       </div>
       <div style={{ border: "1px solid grey" }}></div>
+      <TopChefsHeading heading={"VARIETIES"} />
     </div>
   );
 }

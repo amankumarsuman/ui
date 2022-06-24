@@ -1,19 +1,26 @@
-import { Divider } from '@mui/material'
-import React from 'react'
-
-function TopChefsHeading() {
+import { Divider } from "@mui/material";
+import React from "react";
+import "./topChefStyle.css";
+function TopChefsHeading({ heading }) {
   return (
-  <>
-  <div style={{width:"78%",margin:"auto",marginLeft:0}}>
-
-   <div style={{width:"300px",margin:"auto"}} >
-
-<h1 >TOP   CHEFS</h1>
-<Divider sx={{border:"3px solid #342679",width:"100px",margin:"auto",marginTop:"10px"}} variant="middle" />
-</div>
-  </div>
-  </>
-  )
+    <>
+      <div>
+        <div className="mainContainer">
+          <h1>{heading}</h1>
+          <Divider
+            sx={{
+              border: "2px solid #342679",
+              width: "150px",
+              margin: "auto",
+              marginTop: "10px",
+              marginLeft: 0,
+            }}
+            variant="middle"
+          />
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default TopChefsHeading
+export default TopChefsHeading;
