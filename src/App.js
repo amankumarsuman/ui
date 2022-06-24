@@ -6,6 +6,7 @@ import TopChefs from "./components/topChefs/TopChefs";
 import FoodGuide from "./components/foodGuide/FoodGuide";
 import SocialMedia from "./components/socialMedia/SocialMedia";
 import TopChefsHeading from "./components/topChefHeading/TopChefsHeading";
+import VarietyRight from "./components/varietyRight/VarietyRight";
 
 function App() {
   return (

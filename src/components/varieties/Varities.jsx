@@ -7,11 +7,13 @@ import { CardActionArea, Paper } from "@mui/material";
 import { Divider } from "@mui/material";
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 import "./varietyStyle.css"
+import VarietyRight from "../varietyRight/VarietyRight";
 export default function VarietyCard() {
   return (
     <>
       <div
       //  className="variety1"
+      className="mainDiv"
       >
         <div 
        className="variety1"
@@ -36,7 +38,9 @@ export default function VarietyCard() {
         
         </div>
       
-       
+       <Paper>
+         <VarietyRight/>
+       </Paper>
       
       </div>
     </>
